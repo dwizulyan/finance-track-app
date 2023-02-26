@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Montserrat"
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar{
+    width: 15%;
+    background: black;
+    height: 100vh;
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap: 16px;
+    flex-direction: column;  
+    padding:47px;
+}
+
+.navbar .brand{
+    font-weight: 900;
+    text-transform:uppercase;
+    font-size:21px;
+    color: white;
+    text-decoration:none;
+}
+
+.navbar .nav-links{
+    width: 25vw;
+    color: white;
+    flex-direction: column;
+    height: 10vh;
+    gap: 16px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.navbar .nav-links .link{
+    color: white;
+    text-decoration:none;
+    font-weight:600;
+    text-transform: uppercase;
+}
+
+.wrap{
+    overflow: scroll;
+    padding: 16px;
+    width: 70%;
+    height: 90vh;
+}
+.wrap .title{
+    font-size: 27px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.wrap::-webkit-scrollbar{
+   width: 5px;
+}
+.wrap::-webkit-scrollbar-thumb{
+    background-color: rgb(158, 158, 158);
+    border-radius: 10px;
+}
+.wrap .box{
+    margin-bottom: 16px;
+    width: 100%;
+    border-bottom: 1px solid rgb(190, 190, 190);
+    padding: 12px 0 ;    
+    gap:12px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.wrap .balance{
+    font-size: 18px;
+    font-weight: 600;
+}
+.wrap .date {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 2px 6px;
+    width: max-content;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 6px;
+}
+
+.menu{
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.menu .add{
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+}
+.menu .icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 50px;
+}
+.menu .menu-box{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap:8px;
+}
+.menu-box p{
+    text-align:end;
+    width: max-content;
+}
