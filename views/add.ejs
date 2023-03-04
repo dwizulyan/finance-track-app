@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="" class="brand">Finance Tracker</a>
+      <div class="nav-links">
+        <a href="/" class="link">Utama</a>
+        <a href="" class="link">Laporan</a>
+        <a href="" class="link">Akun Saya</a>
+      </div>
+    </nav>
+    <form action="add" method="post" class="input-wrapper">
+      <h1>Tambahkan Anggaran</h1>
+      <div class="input-box">
+        <label for="jumlah-anggaran">Jumlah Anggaran</label>
+        <input type="number" name="jumlahAnggaran" />
+      </div>
+      <div class="input-box">
+        <label for="tanggal">Tanggal</label>
+        <input type="date" name="tanggal" />
+      </div>
+      <div class="input-box">
+        <label for="jumlah-anggaran">Kategori</label>
+        <input type="text" name="kategori" />
+      </div>
+      <div class="input-box">
+        <button type="submit">Tambahkan</button>
+      </div>
+    </form>
+  </body>
+</html>

@@ -103,7 +103,7 @@ body{
 }
 
 .menu .add{
-    font-size: 35px;
+    font-size:21px;
     text-decoration: none;
     color: white;
 }
@@ -124,4 +124,39 @@ body{
 .menu-box p{
     text-align:end;
     width: max-content;
+}
+
+
+.input-wrapper{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    gap:16px;
+    padding: 16px;
+    justify-content: center;
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+.input-box label{
+    font-size: 18px;
+}
+.input-box input{
+    padding: 12px;
+    width: 300px;
+    font-weight: 500;
+}
+
+.input-box button{
+    background: black;
+    color: white;
+    font-size: 16px;
+    padding: 8px;
+
 }
